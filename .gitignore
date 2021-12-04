@@ -4,6 +4,12 @@
 #
 [Ll]ibrary/
 [Tt]emp/
+
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+Assets/AssetStoreTools*
+=======
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/

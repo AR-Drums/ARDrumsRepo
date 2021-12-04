@@ -4,10 +4,17 @@
 #
 [Ll]ibrary/
 [Tt]emp/
+
 [Bb]uild/
 [Bb]uilds/
 [Oo]bj/
 Assets/AssetStoreTools*
+=======
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/StoreTools*
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

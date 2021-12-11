@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Beat
+  - DrumStickHead
+  - BPM
+  - Cymbal
+  - FloorTomHead
+  - BaseHead
+  - SnareHead
+  - HighHat
+  - RackTomSmallHead
+  - RackTomLargeHead
+  - DrumCollider
   layers:
   - Default
   - TransparentFX

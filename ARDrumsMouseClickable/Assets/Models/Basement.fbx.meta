@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 61ffbeeb0e54ec942afc7060e9039c11
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bean bags and blanket
+    100004: Carboards Boxes
+    100006: Joists
+    100008: Light
+    100010: Lights
+    100012: Picture frame shelves boxes
+    100014: Point
+    100016: Point.001
+    100018: Point.002
+    100020: Point.003
+    100022: Room
+    100024: Scrap wood
+    100026: Stairs
+    100028: Wood beams
+    100030: Paint Cans
+    100032: Camera
+    400000: //RootNode
+    400002: Bean bags and blanket
+    400004: Carboards Boxes
+    400006: Joists
+    400008: Light
+    400010: Lights
+    400012: Picture frame shelves boxes
+    400014: Point
+    400016: Point.001
+    400018: Point.002
+    400020: Point.003
+    400022: Room
+    400024: Scrap wood
+    400026: Stairs
+    400028: Wood beams
+    400030: Paint Cans
+    400032: Camera
+    2000000: Camera
+    2100000: Floor
+    2100002: Bricks01_3K
+    2100004: Black metal
+    2100006: Stair wood
+    2100008: Wood beam
+    2100010: Struts
+    2100012: Cardboard
+    2100014: Black Plastic
+    2100016: Picture
+    2100018: Bean Bag.001
+    2100020: Blanket
+    2100022: Wire
+    2100024: Screw
+    2100026: Light Bulb
+    2100028: Paint Cans
+    2300000: Bean bags and blanket
+    2300002: Carboards Boxes
+    2300004: Joists
+    2300006: Lights
+    2300008: Picture frame shelves boxes
+    2300010: Room
+    2300012: Scrap wood
+    2300014: Stairs
+    2300016: Wood beams
+    2300018: Paint Cans
+    3300000: Bean bags and blanket
+    3300002: Carboards Boxes
+    3300004: Joists
+    3300006: Lights
+    3300008: Picture frame shelves boxes
+    3300010: Room
+    3300012: Scrap wood
+    3300014: Stairs
+    3300016: Wood beams
+    3300018: Paint Cans
+    4300000: Room
+    4300002: Stairs
+    4300004: Wood beams
+    4300006: Joists
+    4300008: Picture frame shelves boxes
+    4300010: Scrap wood
+    4300012: Bean bags and blanket
+    4300014: Carboards Boxes
+    4300016: Lights
+    4300018: Paint Cans
+    10800000: Light
+    10800002: Point
+    10800004: Point.001
+    10800006: Point.002
+    10800008: Point.003
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

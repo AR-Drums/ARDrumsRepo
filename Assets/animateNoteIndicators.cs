@@ -5,7 +5,12 @@ using UnityEngine;
 
 public class animateNoteIndicators : MonoBehaviour
 {
-    public GameObject drumComponent; 
+    //public GameObject drumComponent;
+    public Vector3 endPosition;
+    public float secondsOfLife;
+    public ArrayList noteList;
+    public Vector3 startPosition;
+    private Vector3 speed;
     //public GameObject[] drumComponent = new GameObject[2];
 
     //Vector3 targetPosition;
@@ -16,7 +21,25 @@ public class animateNoteIndicators : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //noteList = new ArrayList();
+        if (endPosition == new Vector3()) {
+            endPosition = gameObject.transform.position;
+            endPosition.x = GameObject.Find("End Point").transform.position.x;
+            //endPosition = GameObject.Find("End Point").transform.position; 
+        }
+
+        if(startPosition == new Vector3())
+        {
+            startPosition = endPosition;
+            startPosition.x = GameObject.Find("Start Point").transform.position.x;
+        }
+
+        if(secondsOfLife == 0)
+        {
+            secondsOfLife = 1.4f;
+        }
+
+        speed = ((endPosition - startPosition) / secondsOfLife) * Time.deltaTime;
     }
 
     //For testing only
@@ -25,13 +48,25 @@ public class animateNoteIndicators : MonoBehaviour
 
         //Figure out how to spawn notes without keyboard press
         //Does successfully clone objects every key press but not I want 
-        if (Input.GetKeyDown(KeyCode.Space))
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    //MoveNotes();
+        //    SpawnNote();
+        //}
+
+        //ClearDeadNotes();
+        //foreach(GameObject item in noteList)
+        //{
+
+        //New idea: toss out old means of tracking, and just have an item delete itself after it moves past a certain x; this only works for moving left, so alter as necessary
+        if(transform.position.x > endPosition.x)
         {
-            MoveNotes();
-            
+            //noteList.Remove(item);
+            Destroy(gameObject);
         }
-        //MoveNotes();
-        
+        transform.Translate(speed);
+        //}
+
     }
 
     //For right now I used the iTween animation plugin from last semesters VR Drums Tutorial 
@@ -49,11 +84,12 @@ public class animateNoteIndicators : MonoBehaviour
         //Instantiating Notes but not in the correct position
         //Vector3 tempNote = new Vector3(0, 0, 0);
 
-        Instantiate(this.gameObject, transform.position, Quaternion.identity);
+        var newNote = Instantiate(this.gameObject, transform.position, Quaternion.identity);
 
         //Moves objects to the right on X axis 
-        iTween.MoveTo(this.gameObject, iTween.Hash("x", 4.59, "time", 2f, "easeType", iTween.EaseType.linear, "local", true));
-        Destroy(this.gameObject, 1.4f); //the rate of destruction 
+        iTween.MoveTo(newNote, iTween.Hash("x", 4.59, "time", 2f, "easeType", iTween.EaseType.linear, "local", true));
+        Destroy(newNote, 1.4f); //the rate of destruction 
+        noteList.Add(newNote);
     }
 
 }

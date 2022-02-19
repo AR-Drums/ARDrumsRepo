@@ -87,8 +87,8 @@ public class animateNoteIndicators : MonoBehaviour
         var newNote = Instantiate(this.gameObject, transform.position, Quaternion.identity);
 
         //Moves objects to the right on X axis 
-        iTween.MoveTo(newNote, iTween.Hash("x", 4.59, "time", 2f, "easeType", iTween.EaseType.linear, "local", true));
-        Destroy(newNote, 1.4f); //the rate of destruction 
+        iTween.MoveTo(newNote, iTween.Hash("x", 1.0, "time", 1.0f, "easeType", iTween.EaseType.linear, "local", true));
+        Destroy(newNote, 2.0f); //the rate of destruction 
         noteList.Add(newNote);
     }
 

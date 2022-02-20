@@ -14,8 +14,9 @@ public class spawnNote : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //MoveNotes();
+
             SpawnNote();
+        
         }
     }
 

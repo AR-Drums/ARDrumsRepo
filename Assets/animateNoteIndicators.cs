@@ -36,7 +36,7 @@ public class animateNoteIndicators : MonoBehaviour
 
         if(secondsOfLife == 0)
         {
-            secondsOfLife = 1.4f;
+            secondsOfLife = 9.0f; //This seems to slow down the speed of the notes, I had to increase the value to test with follow up equation, anything greater than 10.0f causes prefabs to have {NaN, NaN, NaN} 
         }
 
         speed = ((endPosition - startPosition) / secondsOfLife) * Time.deltaTime;
@@ -65,7 +65,6 @@ public class animateNoteIndicators : MonoBehaviour
             Destroy(gameObject);
         }
         transform.Translate(speed);
-        //}
 
     }
 
@@ -87,8 +86,8 @@ public class animateNoteIndicators : MonoBehaviour
         var newNote = Instantiate(this.gameObject, transform.position, Quaternion.identity);
 
         //Moves objects to the right on X axis 
-        iTween.MoveTo(newNote, iTween.Hash("x", 1.0, "time", 1.0f, "easeType", iTween.EaseType.linear, "local", true));
-        Destroy(newNote, 2.0f); //the rate of destruction 
+        iTween.MoveTo(newNote, iTween.Hash("x", 0.0192f, "time", 1.0f, "easeType", iTween.EaseType.linear, "local", true));
+        Destroy(newNote, 1.0f); //the rate of destruction 
         noteList.Add(newNote);
     }
 

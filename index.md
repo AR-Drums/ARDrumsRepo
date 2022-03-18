@@ -2,14 +2,14 @@
 
 ### AR Drum Team Members
 
-##Brent Gibson
+###Brent Gibson
 
-##Richard Rivas
+###Richard Rivas
 
-##Michael Buckley
+###Michael Buckley
 
-##Noshin
+###Noshin
 
-##Brandon Pacol
+###Brandon Pacol
 
-##Saidaer Saifuding
+###Saidaer Saifuding

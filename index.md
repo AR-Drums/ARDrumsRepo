@@ -4,7 +4,7 @@ The AR-Drums project was created as an educational music tool in mind that would
 ## Technologies Used 
 
 ### Built with Unity 3D
-Unity is a cross-platform game engine
+Unity is a cross-platform game engine.
 (https://unity.com/)
 
 ### Game objects created in Blender
@@ -21,26 +21,26 @@ AR-Drums is built mostly using C# as well as Github and Plastic SCM for source c
 
 ### AR-Drum Team Members
 
-###Brent Gibson
-Project Lead
-(https://github.com/BGibson1618)
+### Brent Gibson
+\- Project Lead
+\- (https://github.com/BGibson1618)
 
-###Richard Rivas
-Motion Capture Developer 
-(https://github.com/nomodfx)
+### Richard Rivas
+\- Motion Capture Developer 
+\- (https://github.com/nomodfx)
 
-###Michael Buckley
-Project Support
-(https://github.com/Durzo-Blints-Knives)
+### Michael Buckley
+\- Project Support
+\- (https://github.com/Durzo-Blints-Knives)
 
-###Noshin
-Unity Developer
-(https://github.com/aspreen)
+### Noshin
+\- Unity Developer
+\- (https://github.com/aspreen)
 
-###Brandon Pacol
-Sound Engineer
-(https://github.com/brandonpacol)
+### Brandon Pacol
+\- Sound Engineer
+\- (https://github.com/brandonpacol)
 
-###Saidaer Saifuding
-Graphic Artist
-(https://github.com/Beard0990)
+### Saidaer Saifuding
+\- Graphic Artist
+\- (https://github.com/Beard0990)

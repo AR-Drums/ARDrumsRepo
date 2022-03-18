@@ -1,2 +1,10 @@
-title: "Title"
+title: "AR-Drums"
+description: "Copyright © California State University, Northridge"
+lang: "en"
+excerpt_seperator: "\n\n\n"
+
+#layout
+
+show_social: true #shoe site descrption and social links in the footer
+
 theme: jekyll-theme-slate
